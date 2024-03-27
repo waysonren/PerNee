@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Nested Event Extraction upon Pivot Element Recognition 
 
 The ACE2005-Nest dataset and the code of the PerNee model for COLING 2024 paper: [Nested Event Extraction upon Pivot Element Recognition](https://arxiv.org/)
@@ -66,3 +67,8 @@ Run the merge_annotation.py
 ### (3) Training
 
 `python train.py`
+
+### (4) License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
