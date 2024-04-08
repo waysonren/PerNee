@@ -1,6 +1,6 @@
 # Nested Event Extraction upon Pivot Element Recognition 
 
-The ACE2005-Nest dataset and the code of the PerNee model for COLING 2024 paper: [Nested Event Extraction upon Pivot Element Recognition]([https://arxiv.org/](https://arxiv.org/abs/2309.12960))
+The ACE2005-Nest dataset and the code of the PerNee model for COLING 2024 paper: [Nested Event Extraction upon Pivot Element Recognition](https://arxiv.org/abs/2309.12960)
 
 
 ## 1. The ACE2005-Nest dataset
