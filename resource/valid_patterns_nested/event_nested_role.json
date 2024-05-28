@@ -1,0 +1,100 @@
+{
+  "NestedTrigger:State:Formal": [
+        "NestedRole:Agent",
+        "NestedRole:Content",
+        "NestedRole:Target",
+        "NestedRole:Time-Within",
+        "NestedRole:Polarity"
+    ],
+    "NestedTrigger:State:Oral": [
+        "NestedRole:Agent",
+        "NestedRole:Content",
+        "NestedRole:Target",
+        "NestedRole:Time-Within",
+        "NestedRole:Polarity"
+    ],
+    "NestedTrigger:State:Accuse": [
+        "NestedRole:Agent",
+        "NestedRole:Content",
+        "NestedRole:Target",
+        "NestedRole:Time-Within",
+        "NestedRole:Polarity"
+    ],
+    "NestedTrigger:Idea:Belief": [
+        "NestedRole:Agent",
+        "NestedRole:Content",
+        "NestedRole:Target",
+        "NestedRole:Time-Within",
+        "NestedRole:Polarity"
+    ],
+    "NestedTrigger:Idea:Attitude": [
+        "NestedRole:Agent",
+        "NestedRole:Content",
+        "NestedRole:Target",
+        "NestedRole:Time-Within",
+        "NestedRole:Polarity"
+    ],
+    "NestedTrigger:Idea:Doubt": [
+        "NestedRole:Agent",
+        "NestedRole:Content",
+        "NestedRole:Target",
+        "NestedRole:Time-Within",
+        "NestedRole:Polarity"
+    ],
+    "NestedTrigger:Knowledge:Aware": [
+        "NestedRole:Agent",
+        "NestedRole:Content",
+        "NestedRole:Target",
+        "NestedRole:Time-Within",
+        "NestedRole:Polarity"
+    ],
+    "NestedTrigger:Knowledge:Perception": [
+        "NestedRole:Agent",
+        "NestedRole:Content",
+        "NestedRole:Target",
+        "NestedRole:Time-Within",
+        "NestedRole:Polarity"
+    ],
+    "NestedTrigger:Knowledge:Inference": [
+        "NestedRole:Agent",
+        "NestedRole:Content",
+        "NestedRole:Target",
+        "NestedRole:Time-Within",
+        "NestedRole:Polarity"
+    ],
+    "NestedTrigger:Sentiment:Preference": [
+        "NestedRole:Agent",
+        "NestedRole:Content",
+        "NestedRole:Target",
+        "NestedRole:Time-Within",
+        "NestedRole:Polarity"
+    ],
+    "NestedTrigger:Sentiment:Emotion": [
+        "NestedRole:Agent",
+        "NestedRole:Content",
+        "NestedRole:Target",
+        "NestedRole:Time-Within",
+        "NestedRole:Polarity"
+    ],
+    "NestedTrigger:Intention": [
+        "NestedRole:Agent",
+        "NestedRole:Content",
+        "NestedRole:Target",
+        "NestedRole:Time-Within",
+        "NestedRole:Polarity"
+    ],
+    "NestedTrigger:Instruction:Command": [
+        "NestedRole:Agent",
+        "NestedRole:Content",
+        "NestedRole:Target",
+        "NestedRole:Time-Within",
+        "NestedRole:Polarity"
+    ],
+    "NestedTrigger:Instruction:Demand": [
+        "NestedRole:Agent",
+        "NestedRole:Content",
+        "NestedRole:Target",
+        "NestedRole:Time-Within",
+        "NestedRole:Polarity"
+    ]
+}
