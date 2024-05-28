@@ -1,0 +1,352 @@
+{
+  "trigger": {
+    "O": "O",
+    "Personnel:Elect": "elect",
+    "Life:Be-Born": "born",
+    "Movement:Transport": "transport",
+    "Contact:Phone-Write": "phone write",
+    "Life:Marry": "marry",
+    "Life:Die": "die",
+    "Personnel:Start-Position": "start position",
+    "Life:Injure": "injure",
+    "Transaction:Transfer-Ownership": "transfer ownership",
+    "Contact:Meet": "meet",
+    "Personnel:Nominate": "nominate",
+    "Conflict:Attack": "attack",
+    "Business:Start-Org": "start organization",
+    "Justice:Trial-Hearing": "trial hearing",
+    "Justice:Convict": "convict",
+    "Justice:Sentence": "sentence",
+    "Personnel:End-Position": "end position",
+    "Life:Divorce": "divorce",
+    "Justice:Acquit": "acquit",
+    "Justice:Charge-Indict": "charge indict",
+    "Transaction:Transfer-Money": "transfer money",
+    "Justice:Appeal": "appeal",
+    "Justice:Sue": "sue",
+    "Business:Merge-Org": "merge organization",
+    "Business:Declare-Bankruptcy": "declare bankruptcy",
+    "Justice:Execute": "execute",
+    "Justice:Arrest-Jail": "arrest jail",
+    "Justice:Extradite": "extradite",
+    "Conflict:Demonstrate": "demonstrate",
+    "Business:End-Org": "end organization",
+    "Justice:Release-Parole": "release parole",
+    "Justice:Fine": "fine",
+    "Justice:Pardon": "pardon",
+    "NestedTrigger:State:Formal": "formal",
+    "NestedTrigger:State:Oral": "oral",
+    "NestedTrigger:Idea:Belief": "belief",
+    "NestedTrigger:Idea:Attitude": "attitude",
+    "NestedTrigger:Idea:Doubt": "doubt",
+    "NestedTrigger:Knowledge:Aware": "aware",
+    "NestedTrigger:Knowledge:Perception": "perception",
+    "NestedTrigger:Knowledge:Inference": "inference",
+    "NestedTrigger:Sentiment:Preference": "preference",
+    "NestedTrigger:Sentiment:Emotion": "emotion",
+    "NestedTrigger:Intention": "volition",
+    "NestedTrigger:Instruction:Command": "command",
+    "NestedTrigger:Instruction:Demand": "demand",
+    "NestedTrigger:State:Accuse": "judgement"
+  },
+  "role": {
+    "O": "O",
+    "Defendant": "defendant",
+    "Prosecutor": "prosecutor",
+    "Person": "person",
+    "Origin": "origin",
+    "Buyer": "buyer",
+    "Plaintiff": "plaintiff",
+    "Victim": "victim",
+    "Org": "organization",
+    "Adjudicator": "adjudicator",
+    "Seller": "seller",
+    "Beneficiary": "beneficiary",
+    "Giver": "giver",
+    "Target": "target",
+    "Agent": "agent",
+    "Instrument": "instrument",
+    "Vehicle": "vehicle",
+    "Entity": "entity",
+    "Destination": "destination",
+    "Recipient": "recipient",
+    "Attacker": "attacker",
+    "Artifact": "artifact",
+    "Place": "place",
+    "NestedRole:Content": "content",
+    "NestedRole:Agent": "agent",
+    "NestedRole:Target": "target",
+    "NestedRole:Time-Within": "time",
+    "NestedRole:Polarity": "polarity"
+  },
+  "trigger_role": {
+    "Transaction:Transfer-Money": [
+      "recipient",
+      "place",
+      "beneficiary",
+      "giver"
+    ],
+    "Business:End-Org": [
+      "organization",
+      "place"
+    ],
+    "Justice:Sue": [
+      "place",
+      "adjudicator",
+      "defendant",
+      "plaintiff"
+    ],
+    "Transaction:Transfer-Ownership": [
+      "seller",
+      "place",
+      "beneficiary",
+      "buyer",
+      "artifact"
+    ],
+    "Conflict:Demonstrate": [
+      "entity",
+      "place"
+    ],
+    "Personnel:End-Position": [
+      "entity",
+      "place",
+      "person"
+    ],
+    "Movement:Transport": [
+      "place",
+      "agent",
+      "vehicle",
+      "origin",
+      "victim",
+      "destination",
+      "artifact"
+    ],
+    "Contact:Meet": [
+      "entity",
+      "place"
+    ],
+    "Conflict:Attack": [
+      "place",
+      "agent",
+      "attacker",
+      "victim",
+      "instrument",
+      "target"
+    ],
+    "Life:Die": [
+      "place",
+      "agent",
+      "victim",
+      "instrument",
+      "person"
+    ],
+    "Justice:Release-Parole": [
+      "entity",
+      "place",
+      "person"
+    ],
+    "Justice:Charge-Indict": [
+      "place",
+      "adjudicator",
+      "defendant",
+      "prosecutor"
+    ],
+    "Justice:Sentence": [
+      "place",
+      "adjudicator",
+      "defendant"
+    ],
+    "Justice:Extradite": [
+      "destination",
+      "agent",
+      "origin",
+      "person"
+    ],
+    "Justice:Trial-Hearing": [
+      "place",
+      "adjudicator",
+      "defendant",
+      "prosecutor"
+    ],
+    "Justice:Arrest-Jail": [
+      "agent",
+      "place",
+      "person"
+    ],
+    "Life:Be-Born": [
+      "place",
+      "person"
+    ],
+    "Contact:Phone-Write": [
+      "entity",
+      "place"
+    ],
+    "Justice:Convict": [
+      "place",
+      "adjudicator",
+      "defendant"
+    ],
+    "Business:Start-Org": [
+      "agent",
+      "organization",
+      "place"
+    ],
+    "Business:Declare-Bankruptcy": [
+      "organization",
+      "place"
+    ],
+    "Personnel:Start-Position": [
+      "entity",
+      "place",
+      "person"
+    ],
+    "Justice:Fine": [
+      "entity",
+      "adjudicator",
+      "place"
+    ],
+    "Personnel:Elect": [
+      "entity",
+      "place",
+      "person"
+    ],
+    "Life:Injure": [
+      "agent",
+      "instrument",
+      "place",
+      "victim"
+    ],
+    "Life:Marry": [
+      "place",
+      "person"
+    ],
+    "Life:Divorce": [
+      "place",
+      "person"
+    ],
+    "Justice:Execute": [
+      "agent",
+      "place",
+      "person"
+    ],
+    "Personnel:Nominate": [
+      "agent",
+      "person"
+    ],
+    "Business:Merge-Org": [
+      "organization"
+    ],
+    "Justice:Appeal": [
+      "place",
+      "adjudicator",
+      "plaintiff"
+    ],
+    "Justice:Acquit": [
+      "adjudicator",
+      "defendant"
+    ],
+    "Justice:Pardon": [
+      "place",
+      "adjudicator",
+      "defendant"
+    ],
+    "NestedTrigger:State:Formal": [
+      "NestedRole:Content",
+      "NestedRole:Agent",
+      "NestedRole:Target",
+      "NestedRole:Time",
+      "NestedRole:Polarity"
+    ],
+    "NestedTrigger:State:Oral": [
+      "NestedRole:Content",
+      "NestedRole:Agent",
+      "NestedRole:Target",
+      "NestedRole:Time",
+      "NestedRole:Polarity"
+    ],
+    "NestedTrigger:Idea:Belief": [
+      "NestedRole:Content",
+      "NestedRole:Agent",
+      "NestedRole:Target",
+      "NestedRole:Time",
+      "NestedRole:Polarity"
+    ],
+    "NestedTrigger:Idea:Attitude": [
+      "NestedRole:Content",
+      "NestedRole:Agent",
+      "NestedRole:Target",
+      "NestedRole:Time",
+      "NestedRole:Polarity"
+    ],
+    "NestedTrigger:Idea:Doubt": [
+      "NestedRole:Content",
+      "NestedRole:Agent",
+      "NestedRole:Target",
+      "NestedRole:Time",
+      "NestedRole:Polarity"
+    ],
+    "NestedTrigger:Knowledge:Aware": [
+      "NestedRole:Content",
+      "NestedRole:Agent",
+      "NestedRole:Target",
+      "NestedRole:Time",
+      "NestedRole:Polarity"
+    ],
+    "NestedTrigger:Knowledge:Perception": [
+      "NestedRole:Content",
+      "NestedRole:Agent",
+      "NestedRole:Target",
+      "NestedRole:Time",
+      "NestedRole:Polarity"
+    ],
+    "NestedTrigger:Knowledge:Inference": [
+      "NestedRole:Content",
+      "NestedRole:Agent",
+      "NestedRole:Target",
+      "NestedRole:Time",
+      "NestedRole:Polarity"
+    ],
+    "NestedTrigger:Sentiment:Preference": [
+      "NestedRole:Content",
+      "NestedRole:Agent",
+      "NestedRole:Target",
+      "NestedRole:Time",
+      "NestedRole:Polarity"
+    ],
+    "NestedTrigger:Sentiment:Emotion": [
+      "NestedRole:Content",
+      "NestedRole:Agent",
+      "NestedRole:Target",
+      "NestedRole:Time",
+      "NestedRole:Polarity"
+    ],
+    "NestedTrigger:Intention": [
+      "NestedRole:Content",
+      "NestedRole:Agent",
+      "NestedRole:Target",
+      "NestedRole:Time",
+      "NestedRole:Polarity"
+    ],
+    "NestedTrigger:Instruction:Command": [
+      "NestedRole:Content",
+      "NestedRole:Agent",
+      "NestedRole:Target",
+      "NestedRole:Time",
+      "NestedRole:Polarity"
+    ],
+    "NestedTrigger:Instruction:Demand": [
+      "NestedRole:Content",
+      "NestedRole:Agent",
+      "NestedRole:Target",
+      "NestedRole:Time",
+      "NestedRole:Polarity"
+    ],
+    "NestedTrigger:State:Accuse": [
+      "NestedRole:Content",
+      "NestedRole:Agent",
+      "NestedRole:Target",
+      "NestedRole:Time",
+      "NestedRole:Polarity"
+    ]
+  }
+}
